@@ -18,7 +18,29 @@ public class Assignment2 {
 }  
 		   * */
 		   // 2.2 
+		/*
+		 
+		  
+		  
+		 * */
 		   // 2.3
+		/*
+		String str1 = "noon";
+		System.out.println(isPalindrome(str1));
+		String str2 = "afternoon";
+		System.out.println(isPalindrome(str2));
+	}
+		
+		public static boolean isPalindrome(String str){
+		//String str = "noon";
+		for (int i = 0; i < str.length() / 2; i++) {
+			if (str.charAt(i) != str.charAt(str.length() - (i + 1))) {
+				return false;
+			}
+		}
+		return (true);
+	    }*/
+		    
 		   // 2.4
 		   // 2.5
 		
@@ -47,16 +69,16 @@ public class Assignment2 {
 			}*/
 	//2.8
 
-/*int arrnum [] = new int []{12,10,100,67,90};
+/*int[] A= new int []{12,10,100,67,90};
 // print the original array
 System.out.println("printing original array");
-for (int i=0;i<arrnum.length;i++){
-System.out.println(arrnum[i]);
+for (int i=0;i<A.length;i++){
+System.out.println(A[i]);
 }
 // print in reverse
 System.out.println("printing reversed array");
-for (int i = arrnum.length - 1;i>=0;i--){
-System.out.println(arrnum[i]);
+for (int i = A.length - 1;i>=0;i--){
+System.out.println(A[i]);
 }*/
 } 
 	// 2.9
@@ -66,6 +88,8 @@ System.out.println(arrnum[i]);
 	 c)friendl
 	   iendly face
 	 */
+	
+   // 2.10
 		
 	}
 
