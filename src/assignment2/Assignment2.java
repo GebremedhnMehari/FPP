@@ -248,7 +248,7 @@ public class Assignment2 {
 	
 	// 2.12
 /*	private void factors(){
-		for (int i=2; i<10; i++){
+		for (int i=2; i<100; i++){
 			System.out.println("Factors of "+i+":");
 		for (int j=2;j<i;j++){
 			   if(i%j==0){

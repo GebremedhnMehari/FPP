@@ -22,8 +22,11 @@ public class Assignment3 {
 		System.out.println(power);
 		*/
 		// 3.3 
+		/*Assignment3 obj3=new Assignment3();
+		boolean result=obj3.isPerfect(25);
+		System.out.println(result);*/
 		
-		// 3.4
+		// 3.4 Employee Class
 		
 	}
 	// 3.1
@@ -65,5 +68,18 @@ public class Assignment3 {
 	 */
 	
 	// 3.3 
+/*	private boolean isPerfect(int n){
+	    int sum=0;
+		for (int j=1;j<n;j++){
+			   if(n%j==0){
+				sum+=j;
+			}
+		}
+		if(sum==n)
+			 return true;
+		else 
+			 return false;
+	}*/
 	
+	// 3.4 Employee Class 
 }
