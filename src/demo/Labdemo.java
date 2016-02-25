@@ -4,6 +4,7 @@ import assignment2.Capitalize;
 
 public class Labdemo {
 	public static void main(String args[]) {
+	}
 		
 		//1. String Reverse
 				/*String str = "desserts";
@@ -48,7 +49,7 @@ public class Labdemo {
 					System.out.println("position " + i + ": " + args[i]);
 		}
 				*/
-	} 
+	
 	}
 
 
