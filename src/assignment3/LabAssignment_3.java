@@ -1,13 +1,12 @@
 package assignment3;
-import java.util.Scanner; 
-import java.lang.*;
 
-public class Assignment3 {
-	
-	public static void main(String args[]){
+import java.util.Scanner;
+
+public class LabAssignment_3 {
+public static void main(String args[]){
 		
 		// 3.1 findRoot of main method test
-		/*Assignment3 obj1=new Assignment3();
+		/*LabAssignment_3 obj1=new LabAssignment_3();
   	    Scanner input= new Scanner(System.in); 
   	    System.out.println("Enter The coefficients for the Quadratic equation:"); 
   	    System.out.print("a:"); 
@@ -20,7 +19,7 @@ public class Assignment3 {
 		
 		// 3.2
 		
-		/*Assignment3 obj2=new Assignment3();
+	/*	LabAssignment_3 obj2=new LabAssignment_3();
 		Scanner input= new Scanner(System.in); 
 	    System.out.println("Enter The value of n:"); 
 	    int n =input.nextInt(); 
@@ -30,18 +29,18 @@ public class Assignment3 {
 		System.out.println(power);*/
 		
 		// 3.3 
-		Assignment3 obj3=new Assignment3();
+	   /* LabAssignment_3 obj3=new LabAssignment_3();
 		Scanner input= new Scanner(System.in); 
 	    System.out.println("Enter a number to check weather it is perfect number:"); 
 	    int n =input.nextInt();
 		boolean result=obj3.isPerfect(n);
-		System.out.println("isPerfect:"+result);
+		System.out.println("isPerfect:"+result);*/
 		
 		// 3.4 Employee Class
 		
 	}
-	// 3.1 findRoot
- /*  	 private void findRoot(double a, double b, double c){
+//3.1 findRoot
+/*  	 private void findRoot(double a, double b, double c){
 		 
 		 double root1,root2;
 		 double d=b*b-4*a*c;
@@ -65,24 +64,26 @@ public class Assignment3 {
 	
 	
 	// 3.2 raiseIntTopower
-	
-	/*private int raiseIntToPower (int n,int k){
+/*	
+	private int raiseIntToPower (int n,int k){
 		
 		int multiple=1;
 		for (int i=1;i<10;i++){
 			multiple= multiple*2;
 			System.out.println("2 raised "+i+"   :"+multiple);
 		}
+		System.out.println(n+" raised "+k +"is=");
 		int product=1;
-		for (int i=0;i<k;i++){
+		for (int i=1;i<=k;i++){
 			product= product*n;
 		}
+		System.out.println("\n"+n+" raised "+k +"is=");
 		return product;	
 	}*/
 	 
 	
 	// 3.3 isPerfect
-	
+/*	
 	private boolean isPerfect(int n){
 	    int sum=0;
 		for (int j=1;j<n;j++){
@@ -95,6 +96,8 @@ public class Assignment3 {
 		else 
 			 return false;
 	}
+	*/
 	
-	// 3.4 Employee Class 
 }
+
+

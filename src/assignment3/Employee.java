@@ -1,3 +1,9 @@
+
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ * This is Employee class
+ * Assignment3_Day1
+ */
 package assignment3;
 
 public class Employee {

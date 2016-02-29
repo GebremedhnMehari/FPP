@@ -1,4 +1,8 @@
-package programmingAss4;
+
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ */
+package lesson4assignment;
 
 public class BinSearch {
 	   private boolean Search(String s, char c) {

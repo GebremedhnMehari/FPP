@@ -1,13 +1,18 @@
+
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ * This Assignment3_Day1 class consists of all methods for Question 3.1 to Question 3.4
+ * Assignment3_Day1
+ */
 package assignment3;
 import java.util.Scanner; 
-import java.lang.*;
-
-public class Assignment3 {
+public class Assignment3_Day1  {
 	
 	public static void main(String args[]){
 		
 		// 3.1 findRoot of main method test
-		/*Assignment3 obj1=new Assignment3();
+		
+		Assignment3_Day1 obj1=new Assignment3_Day1();
   	    Scanner input= new Scanner(System.in); 
   	    System.out.println("Enter The coefficients for the Quadratic equation:"); 
   	    System.out.print("a:"); 
@@ -16,11 +21,11 @@ public class Assignment3 {
   	    double b =input.nextDouble(); 
   	    System.out.print("c:"); 
 	    double c =input.nextDouble();
-	    obj1.findRoot(a,b,c);*/
+	    obj1.findRoot(a,b,c);
 		
-		// 3.2
+		// 3.2  raiseIntTopower of main method test
 		
-		/*Assignment3 obj2=new Assignment3();
+	/*	Assignment3_Day1 obj2=new Assignment3_Day1();
 		Scanner input= new Scanner(System.in); 
 	    System.out.println("Enter The value of n:"); 
 	    int n =input.nextInt(); 
@@ -29,19 +34,21 @@ public class Assignment3 {
 		int power=obj2.raiseIntToPower(n,k);
 		System.out.println(power);*/
 		
-		// 3.3 
-		Assignment3 obj3=new Assignment3();
+		// 3.3 isPerfect of main method test
+	/*	Assignment3_Day1 obj3=new Assignment3_Day1();
 		Scanner input= new Scanner(System.in); 
 	    System.out.println("Enter a number to check weather it is perfect number:"); 
 	    int n =input.nextInt();
 		boolean result=obj3.isPerfect(n);
 		System.out.println("isPerfect:"+result);
+		*/
 		
-		// 3.4 Employee Class
 		
 	}
+	
+	////////////////////////////////////////////////////////////////////////
 	// 3.1 findRoot
- /*  	 private void findRoot(double a, double b, double c){
+   	 private void findRoot(double a, double b, double c){
 		 
 		 double root1,root2;
 		 double d=b*b-4*a*c;
@@ -61,12 +68,12 @@ public class Assignment3 {
 		 else
 			 System.out.println("Has no real solution");
 		
-	   }*/
+	   }
 	
-	
+	/////////////////////////////////////////////////////////////////////////////
 	// 3.2 raiseIntTopower
 	
-	/*private int raiseIntToPower (int n,int k){
+	private int raiseIntToPower (int n,int k){
 		
 		int multiple=1;
 		for (int i=1;i<10;i++){
@@ -78,9 +85,9 @@ public class Assignment3 {
 			product= product*n;
 		}
 		return product;	
-	}*/
+	}
 	 
-	
+	///////////////////////////////////////////////////////////////////////
 	// 3.3 isPerfect
 	
 	private boolean isPerfect(int n){
@@ -95,6 +102,6 @@ public class Assignment3 {
 		else 
 			 return false;
 	}
+	///////////////////////////////////////////////////////////////////
 	
-	// 3.4 Employee Class 
 }

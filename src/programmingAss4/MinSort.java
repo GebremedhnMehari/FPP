@@ -11,10 +11,9 @@ public class MinSort {
 				minpos = i;
 			}
 		}
-		/*char ch = s.charAt(minpos);
-		char c = s.charAt(0);*/	 
-		System.out.println(s.charAt(minpos));
-		 System.out.println(s.charAt(0));
+		 
+		 //System.out.println(s.charAt(minpos));
+		 //System.out.println(s.charAt(0));
 			
 		 char[] c = s.toCharArray();
 		 char temp = c[0];
@@ -22,8 +21,8 @@ public class MinSort {
 			c[minpos] = temp;
 		
 		 String swap = new String(c);
-		 System.out.println(swap.charAt(minpos));
-		 System.out.println(swap.charAt(0));
+		 //System.out.println(swap.charAt(minpos));
+		 //System.out.println(swap.charAt(0));
 		 
 		String t = swap.substring(1);
 
@@ -33,21 +32,6 @@ public class MinSort {
 
 		return null;
 	}
-
-	
-	/*String originalString = "abcde";
-
-	char[] c = originalString.toCharArray();
-
-	// Replace with a "swap" function, if desired:
-	char temp = c[0];
-	c[0] = c[1];
-	c[1] = temp;
-
-	String swappedString = new String(c);
-
-	System.out.println(originalString);
-	System.out.println(swappedString);*/
 	
 	public static void main(String args[]) {
 		MinSort input = new MinSort();

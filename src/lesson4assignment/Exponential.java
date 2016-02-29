@@ -1,5 +1,7 @@
-package programmingAss4;
-
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ */
+package lesson4assignment;
 public class Exponential {
 	
 	private double power(double x, int n){
