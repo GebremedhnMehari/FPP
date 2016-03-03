@@ -1,20 +1,17 @@
 
-/**
- * @author Gebremedhn Mehari, ID: 985113
- */
-package lesson3assignment.day2;
+package lesson7assignment;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
 //Program 3-3 String List
-public class MyStringList {
+public class AccountList {
 	int n = 2;
 	private String[] strArray = new String[n];
 	int size = 0;
 	int a = 0, r = 0;
 
-	MyStringList() {
+	AccountList() {
 		// size=0;
 		//if (n == size - 1)
 		//	resize();
@@ -83,7 +80,7 @@ public class MyStringList {
 	}
 
 	public static void main(String[] args) {
-		MyStringList l = new MyStringList();
+		AccountList l = new AccountList();
 		l.add("Bob");
 		System.out.println("The list of size " + l.size() + " is " + l);
 		l.add("Steve");

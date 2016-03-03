@@ -1,7 +1,4 @@
-/**
- * @author Gebremedhn Mehari, ID: 985113
- */
-package lesson3assignment.day2;
+package prog7_3.employeeinfo;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,9 +11,11 @@ public class Employee {
 	private double salary;
 	private Date hireDay;
 	
-	public Account savingsAcct;
+	/*public Account savingsAcct;
 	public Account checkingAcct;
-	public Account retirementAcct;
+	public Account retirementAcct;*/
+	
+	private AccountList accounts;
 
 	SimpleDateFormat sdf = new SimpleDateFormat("MMM dd yyyy");
 
@@ -56,10 +55,16 @@ public class Employee {
 		salary += raise;
 	}
 
-	public void createNewChecking(double startAmount) {
+	/*public void createNewChecking(double startAmount) {
 		checkingAcct=new Account(Employee.this,AccountType.CHECKING,startAmount);
 		// implement
-	}
+	}*/
+	
+	public void createNewSavings(double startBalance) {
+		Account acct = new SavingsAccount(this,startBalance);
+		//accounts is the name of the AccountList variable
+		accounts.add(acct);
+		}
 
 	public void createNewSavings(double startAmount) {
 		// implement
@@ -71,21 +76,21 @@ public class Employee {
 		retirementAcct=new Account(Employee.this,AccountType.RETIREMENT,startAmount);
 	}
 
-	public void deposit(AccountType acctType, double amt) {
+	//public void deposit(AccountType acctType, double amt) 
+	public void deposit(int accountIndex, double amt){
 		// implement
-		switch(acctType){
-		case CHECKING:
-			checkingAcct.makeDeposit(amt);
-		case SAVINGS:
-			savingsAcct.makeDeposit(amt);
-		case RETIREMENT:
-			retirementAcct.makeDeposit(amt);
-	    default:
-			
-		}
+		Account selected = accounts.get(acctIndex);
+		selected.makeDeposit(amt);
 	}
 
-	public boolean withdraw(AccountType acctType, double amt) {
+	public boolean withdraw(AccountType acctType, double amt) 
+	public void withdraw(int accountIndex, double amt){
+		// implement
+		if (balance < amount) 
+			System.out.println("You hav einsufficient balance.");
+		Account selected = accounts.get(acctIndex);
+		selected.withdraw(amt);
+	}{
 		// implement
 		return true;
 	}

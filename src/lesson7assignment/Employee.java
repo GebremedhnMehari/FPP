@@ -1,7 +1,7 @@
 /**
  * @author Gebremedhn Mehari, ID: 985113
  */
-package lesson3assignment.day2;
+package lesson7assignment;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,6 +17,8 @@ public class Employee {
 	public Account savingsAcct;
 	public Account checkingAcct;
 	public Account retirementAcct;
+	
+	//private AccountList accounts;
 
 	SimpleDateFormat sdf = new SimpleDateFormat("MMM dd yyyy");
 

@@ -1,8 +1,4 @@
-
-/**
- * @author Gebremedhn Mehari, ID: 985113
- */
-package lesson3assignment.day2;
+package prog7_3;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
