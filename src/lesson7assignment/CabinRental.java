@@ -1,3 +1,8 @@
+
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ *  Assignment7 Day1
+ */
 package lesson7assignment;
 
 public class CabinRental {

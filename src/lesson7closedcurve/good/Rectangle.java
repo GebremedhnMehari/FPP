@@ -1,6 +1,9 @@
-package lesson7closedcurve.good;
 
-///
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ *  Assignment7 Day2
+ */
+package lesson7closedcurve.good;
 public final class Rectangle extends ClosedCurve implements Polygon {
 	private final double width,length;
 	

@@ -1,3 +1,7 @@
+/**
+ * @author Gebremedhn Mehari, ID: 985113
+ *  Assignment7 Day1
+ */
 package lesson7assignment;
 import java.util.Scanner;
 import java.util.Date;
