@@ -1,21 +1,21 @@
 package lesson8casestudy8_4;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.LinkedList;
 
-class packet implements Comparable
+class packet2 implements Comparable
 {
 	public String n_message;
 	public int n_id;
-	packet(String  n_message, int n_id)
+	packet2(String  n_message, int n_id)
 	{
 		this.n_message = n_message;
 		this.n_id = n_id;
 	}
 	public int compareTo(Object obj)
 	{
-		packet AObj = (packet)obj;
+		packet2 AObj = (packet2)obj;
 		
 		if (this.n_id> AObj.n_id) 
 		return 1;
@@ -31,21 +31,22 @@ class packet implements Comparable
 	}
 }
 
-public class M {
+public class M2 {
 	
 	public static void main(String[] args) {
-		ArrayList <packet> list = new ArrayList<packet>();
-		//LinkedList<packet> list = new LinkedList<packet>();
-		list.add(new packet("you",3));
-		list.add(new packet("Where", 1));
-		list.add(new packet("are", 2));
+		//ArrayList <packet2> list = new ArrayList<packet2>();
+		LinkedList<packet2> list = new LinkedList<packet2>();
+		list.add(new packet2("doing?",4));
+		list.add(new packet2("are", 2));
+		list.add(new packet2("How", 1));
+		list.add(new packet2("you", 3));
 	
 		System.out.println("Message Before Assembeled");
-		for(packet obj : list)
+		for(packet2 obj : list)
 			System.out.print(obj.n_message+" ");
 		Collections.sort(list);
 		System.out.println("\nMessage After assembled");
-		for(packet obj : list)
+		for(packet2 obj : list)
 			System.out.print(obj.n_message+" ");
 	}
 

@@ -1,6 +1,6 @@
 package demo;
 
-import assignment2.Capitalize;
+//import assignment2.Capitalize;
 
 public class Labdemo {
 	public static void main(String args[]) {
